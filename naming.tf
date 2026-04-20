@@ -4,7 +4,7 @@
 #------------------------------------------------------------
 # Azure NoOps Naming - This should be used on all resource naming
 #------------------------------------------------------------
-data "azurenoopsutils_resource_name" "data_factory_name" {
+data "popsrox_resource_name" "data_factory_name" {
   name          = var.workload_name
   resource_type = "azurerm_data_factory"
   prefixes      = [var.org_name, var.use_location_short_name ? module.mod_azure_region_lookup.location_short : var.location]
