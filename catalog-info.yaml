@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tf-az-overlays-datafactory
+  name: terraform-az-overlays-datafactory
   description: Terraform overlay module for Azure Data Factory
   annotations:
-    github.com/project-slug: POps-Rox/tf-az-overlays-datafactory
+    github.com/project-slug: POps-Rox/terraform-az-overlays-datafactory
     backstage.io/techdocs-ref: dir:.
   tags:
     - terraform
@@ -12,7 +12,7 @@ metadata:
     - azure
     - platform-ops
   links:
-    - url: https://github.com/POps-Rox/tf-az-overlays-datafactory
+    - url: https://github.com/POps-Rox/terraform-az-overlays-datafactory
       title: GitHub Repository
       icon: github
 spec:

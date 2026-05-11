@@ -3,7 +3,7 @@
 
 
 module "data_factory" {
-  #source = "github.com/POps-Rox/tf-az-overlays-datafactory"  
+  #source = "github.com/POps-Rox/terraform-az-overlays-datafactory"  
   #version = "x.x.x"  
   source = "../../.."
 
