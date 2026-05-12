@@ -28,7 +28,7 @@ resource "azurerm_subnet" "datafactory_subnet" {
   virtual_network_name                          = azurerm_virtual_network.datafactory_vnet.name
   address_prefixes                              = ["10.0.2.0/24"]
   private_link_service_network_policies_enabled = true
-  private_endpoint_network_policies_enabled     = false
+  private_endpoint_network_policies             = "Disabled"
 }
 
 
